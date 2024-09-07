@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.SearchBar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.SearchBar input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.SearchBar .SearchButton {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #1db954;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.SearchResults, .Playlist {
+  width: 45%;
+}
+
+.Tracklist {
+  margin-top: 20px;
+}
+
+.Track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.Track-information {
+  flex-grow: 1;
+}
+
+.Track h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.Track p {
+  margin: 5px 0 0;
+  color: #888;
+}
+
+.Track-action {
+  padding: 5px 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #1db954;
+  color: white;
+  cursor: pointer;
+}
+
+.Playlist input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.Playlist-save {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #1db954;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+
